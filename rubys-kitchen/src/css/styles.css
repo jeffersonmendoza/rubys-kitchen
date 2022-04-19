@@ -1,0 +1,157 @@
+body {
+  margin: 2%;
+  padding: 2%;
+  background-color: #EFE7D3; /* Main color*/
+}
+
+.navbar{
+  background-color: #EEB5EB;
+  padding: 0;
+}
+
+.navbar-brand { 
+  font-family: 'Beau Rivage', cursive;
+  font-size: 2.5rem;
+  padding: 0;
+}
+
+.navbar-toggler {
+  font-size: .75rem;
+}
+
+/* .main-logo {
+  width: 45px;
+  display: inline-block;
+} */
+
+#about {
+  padding: 1%;
+}
+
+aside {
+  overflow: auto;
+}
+.sample-kitchen {
+  padding: 0 20px 20px 0;
+  width: 200px;
+  float:right;
+}
+
+.small-hidden {
+  display: none;
+}
+
+.dishes-title {
+  text-align: center;
+}
+#dishes {
+  margin: 0px 0px 25px 0px;
+}
+
+.carousel {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  display: none;
+}
+
+.accordion-button {
+  background-color: #f0ccee;
+}
+
+.accordion-image {
+  width: 100%;
+  display: block;
+}
+
+.accordion-body {
+  background-color: #eee2ed ;
+  overflow: auto;
+}
+
+.feedback {
+  text-align: center;
+}
+
+.contact-form {
+  text-align: center;
+  border: 4px solid #EEB5EB;
+  padding: 20px 0px 20px 0px;
+}
+
+input, textarea {
+  width: 90%;
+}
+
+footer {
+  text-align: center;
+  margin: 2% 0%;
+}
+
+@media screen and (min-width: 481px) {
+  .contact-form {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .accordion-image {
+    float: right;
+    width: 50%;
+    border: 2px solid #EFE7D3;
+  }
+  .small-hidden {
+    display: none;
+  }
+  .large-hidden {
+    display: contents;
+  }
+}
+@media screen and (min-width: 780px) {
+  .left {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0% 0% 5% 0%;
+  }
+  .right {
+    width: 65%;
+    display: inline-block;
+  }
+
+  .large-hidden {
+    display: contents;
+  }
+
+  .small-hidden{
+    display: none;
+  }
+  .accordion-image {
+    float: right;
+    width: 50%;
+    border: 2px solid #EFE7D3;
+  }
+  .contact-section {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .contact-details {
+    display: inline-block;
+    width: 35%;
+    vertical-align:top;
+    margin: 0% 10% 0% 10%;
+  }
+  .contact-form {
+    display: inline-block;
+    width: 35%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .small-hidden {
+    display:contents;
+  }
+  .large-hidden {
+    display: none;
+  }
+}
